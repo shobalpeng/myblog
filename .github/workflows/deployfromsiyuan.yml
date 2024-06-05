@@ -3,7 +3,7 @@ name: deploy
 on:
   push:
     branches:
-      - master  # 或者是你的源代码分支
+      - gh-pages  # 或者是你的源代码分支
 
 jobs:
   deploy:
